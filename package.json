@@ -24,7 +24,6 @@
   "homepage": "https://github.com/iAmGhOsTy/discord-bot-status-logger#readme",
   "dependencies": {
     "discord.js": "^13.6.0",
-    "dotenv": "^16.0.0",
     "quick.db": "^7.1.3"
   }
 }

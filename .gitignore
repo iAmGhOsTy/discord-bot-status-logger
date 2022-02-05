@@ -51,6 +51,7 @@ $RECYCLE.BIN/
 node_modules
 
 #environment variables
+config.json
 .env
 
 
