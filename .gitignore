@@ -50,6 +50,9 @@ $RECYCLE.BIN/
 # NODE MODULES
 node_modules
 
+#DATA
+json.sqlite
+
 #environment variables
 config.json
 .env
