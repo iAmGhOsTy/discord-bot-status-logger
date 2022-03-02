@@ -44,7 +44,7 @@ client.on("presenceUpdate", async (oldPresence, newPresence) => {
 
         if (config.Servers)
         {
-/* when bot online */
+/* when bot is online */
             if (newPresence.status == PresenceUpdateStatus.Online)
             {
                 newPresence.guild.channels.cache.get(config.Channels).send({
@@ -59,7 +59,7 @@ client.on("presenceUpdate", async (oldPresence, newPresence) => {
                 });
             }
 
-            /* when bot offline */
+            /* when bot is offline */
             else if (newPresence.status == PresenceUpdateStatus.Offline || newPresence.status == PresenceUpdateStatus.Invisible)
             {
                 newPresence.guild.channels.cache.get(config.Channels).send({
@@ -128,3 +128,4 @@ process.on('uncaughtExceptionMonitor', (err, origin) => {
   console.log('[antiCrash] :: [uncaughtExceptionMonitor]');
   console.log(err, origin);
 });
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
